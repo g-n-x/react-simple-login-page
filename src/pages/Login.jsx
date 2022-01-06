@@ -19,7 +19,8 @@ export default function Login (props) {
           id="password"
           type="password"
         />
-        <div style={{flexDirection: 'row'}}>
+        <p>Forgot your password? <a href="/">Click here</a>.</p>
+        <div style={{flexDirection: 'row', background: 'transparent'}}>
           <Button>Login</Button>
           <Button>Register</Button>
         </div>

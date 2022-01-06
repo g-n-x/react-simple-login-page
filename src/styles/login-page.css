@@ -3,7 +3,7 @@
   margin: auto;
   max-width: 525px;
   min-width: 670px;
-  background: url(https://www.wallpapers13.com/wp-content/uploads/2016/04/Landscape-mountain-rocky-alpine-peak-with-snow-autumn-trees-with-yellow-leaves-river-blue-Matterhorn-Switzerland.jpg) no-repeat center;
+  background: url('../assets/mountains.jpg') no-repeat center;
   box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
 }
 
@@ -15,3 +15,18 @@
   gap: 15px;
   padding: 15px;
 }
+
+p {
+  align-self: flex-start;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited, a:unvisited {
+  color: purple;
+}
+
