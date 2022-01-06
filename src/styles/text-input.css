@@ -1,0 +1,15 @@
+input {
+  font-size: 17px;
+  
+  display: block;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 20px;
+  background: rgba(255, 255, 255, .2);
+
+  transition: background 0.5s ease-in-out;
+}
+
+input:not([disabled]):hover {
+  background: rgba(255, 255, 255, .7);
+}

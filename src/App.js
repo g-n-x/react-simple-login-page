@@ -1,12 +1,10 @@
 import Login from './pages/Login'
 import './styles/global.css'
 
-function App() {
+export default function App() {
   return (
     <div>
       <Login />
     </div>
   );
 }
-
-export default App

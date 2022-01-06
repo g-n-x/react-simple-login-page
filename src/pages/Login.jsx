@@ -1,9 +1,15 @@
-function Login (props) {
+import InputText from '../components/InputText'
+import '../styles/login-page.css'
+
+export default function Login (props) {
   return (
-    <div>
-      <h1>hello</h1>
+    <div className="loginForm">
+      <InputText
+        type="text"
+      />
+      <InputText
+        type="password"
+      />
     </div>
   )
 }
-
-export default Login
